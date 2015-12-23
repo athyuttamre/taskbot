@@ -11,11 +11,7 @@ To get your own version of Taskbot running, you need to do three things:
 
 ## 1. Clone and Setup
 
-First, clone the repo. Next, rename `setup.template.sh` to `setup.sh`. Then, set execute permissions for `setup.sh` by running `chmod 755 setup.sh` in your Terminal.
-
-Next, replace the MongoLab URL with your own within the `setup.sh` file.
-
-Finally, run the file by typing `./setup.sh` in your Terminal.
+First, clone the repo. Next, rename `setup.template.sh` to `setup.sh`, and replace the MongoLab URL with your own. Then, run the file by typing `source setup.sh` in your Terminal.
 
 ## 2. Deploy on Heroku
 
