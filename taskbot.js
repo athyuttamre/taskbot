@@ -38,6 +38,11 @@ var main = function (req, res, next) {
   } else if (textParts[0] === "assign") {
     responseType = "in_channel";
     payloadText = "Assign task interface goes here!";
+  } else if (textParts[0] === "finish") {
+    responseType = "in_channel";
+    payloadText = "Finish task interface goes here!";
+  } else {
+    payloadText = "Sorry, we didn't recognize that command. Try typing `/taskbot help` for options.";
   }
 
   var payload = {
